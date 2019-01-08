@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.background{
+    background-image: url(images/mountains.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    margin: 0 auto;
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+}
+
+body{
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 200%;
+}
+
+.grid{
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
+}
+
+.section{
+    background-color: rgb(65,131,63);
+}
