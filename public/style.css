@@ -14,20 +14,60 @@
 }
 
 body {
-    margin: 15px;
     font-family: 'Montserrat', sans-serif;
+    margin: 15px;
 }
 
 h1 {
     text-align: center;
-    font-size: 200%;
+    font-size: 400%;
+    text-shadow: 3px 3px 15px ;
 }
 
 .grid {
+    width: 80% ;
+    display: inline-grid;
+    margin:5% 10%;
+    grid-column-gap: 30%;
     grid-template-columns: auto auto;
-    grid-column-gap: 50px;
 }
 
 .section {
-    background-color: rgb(65, 131, 63);
+    background-color: #3a735c;
+    box-shadow: 3px 3px 15px;
+}
+
+.element {
+    margin: 7%;
+    font-weight: bold;
+}
+
+.element input{
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#compute{
+    position: absolute;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: -8.5% 45%;
+    padding: 15px 25px;
+    font-size: 120%;
+    font-weight: bold;
+    border: none;
+    background-color: #333;
+    box-shadow: 3px 3px 15px black;
+}
+
+#compute:hover{
+    background-color: #3a735c;
+    color: black;
+}
+
+#actors{
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
