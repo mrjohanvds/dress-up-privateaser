@@ -42,18 +42,16 @@ h1 {
     font-weight: bold;
 }
 
-.element input{
-.element input:not(#cb) {
+.element input {
     float: right;
     font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
     border: none;
     height: 20px;
-    box-shadow: 1px 1px 15px black;
 }
 
 .element input:hover {
-    box-shadow: 0px 0px;
+    box-shadow: 1px 1px 15px black;
 }
 
 #compute {
@@ -95,5 +93,4 @@ h1 {
     width: 300px;
     grid-template-columns: 100px 100px 100px;
     text-align: right;
-    border: 10px;
 }
