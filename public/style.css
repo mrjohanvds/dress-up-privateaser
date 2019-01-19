@@ -27,7 +27,7 @@ h1 {
 .grid {
     width: 80%;
     display: inline-grid;
-    margin: 5% 10%;
+    margin: 0 10%;
     grid-column-gap: 30%;
     grid-template-columns: auto auto;
 }
@@ -59,7 +59,7 @@ h1 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    margin: -14% 45%;
+    margin: -9.5% 45%;
     padding: 15px 25px;
     font-size: 120%;
     font-weight: bold;
@@ -79,7 +79,8 @@ h1 {
     text-align: center;
     font-weight: bold;
     width: 500px;
-    margin: auto;
+    top: -10%;
+    margin: 30px auto;
     padding: 25px;
     transition: all 0.8s ease-in-out;
     box-shadow: 3px 3px 15px black;

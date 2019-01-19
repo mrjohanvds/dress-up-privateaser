@@ -10,7 +10,7 @@
         <div class="actor">
           <span>${actor.who}</span>
           <span>${actor.type}</span>
-          <span>${actor.amount + "€"}</span>
+          <span>${actor.amount + " Euros"}</span>
         </div>
       `;
     }).join('');
